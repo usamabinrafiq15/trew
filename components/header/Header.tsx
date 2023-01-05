@@ -7,17 +7,17 @@ import Image from "next/image";
 const Header = () => {
   return (
     <>
-      <div className="header">
+      <div className="header" id="main">
         <Container>
           <div className="parent">
             <div className="hero row ">
               <div className="left_side  col-xl-6 col-lg-12">
-                <div className="header_title">
-                  <div>Influence people with TREW.</div>
-                  <div>Because Trust brings</div>
-                  <div>customers, not a sale.</div>
+                <div className="header_title pt-5">
+                  <h1>Influence people with TREW.</h1>
+                  <h1>Because Trust brings</h1>
+                  <h1>customers, not a sale.</h1>
                 </div>
-                <div className="header_descriptions">
+                <div className="header_descriptions py-4">
                   <p>
                     So,we will be your first blockchain digital partner for you
                   </p>
@@ -39,23 +39,22 @@ const Header = () => {
                   <div className="middle_title"> Personal recommendations</div>
                 </div>
                 <div className="both_rating">
-                <div className="rating">
-                  <div className="number">
-                    <Image src={star} alt="" width={30} />
-                    <span>4.8</span>{" "}
+                  <div className="rating">
+                    <div className="number">
+                      <Image src={star} alt="" width={30} />
+                      <span>4.8</span>{" "}
+                    </div>
+                    <div className="inwords"> Has 4.8 Rating</div>
                   </div>
-                  <div className="inwords"> Has 4.8 Rating</div>
-                </div>
-                <div className="rating">
-                  <div className="number">
-                    {" "}
-                    <Image src={heart} alt="" width={30} />
-                    <span>20K</span>{" "}
+                  <div className="rating">
+                    <div className="number">
+                      {" "}
+                      <Image src={heart} alt="" width={30} />
+                      <span>20K</span>{" "}
+                    </div>
+                    <div className="inwords"> Satisfied Client</div>
                   </div>
-                  <div className="inwords"> Satisfied Client</div>
                 </div>
-                </div>
-            
               </div>
             </div>
           </div>

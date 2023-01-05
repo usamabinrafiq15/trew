@@ -8,23 +8,18 @@ const Service = () => {
   return (
     <>
       <Container>
-        <div className="service">
+        <div className="service pt-5">
           <div className="service_center">
-            <div className="service_head">
-              Service
-              <div className="line_service"></div>
-            </div>
+            <h4 className="service_head">Service </h4>
+            <div className="line_service"></div>
           </div>
-          <div className="service_heading">
+          <div className="service_heading py-4">
             <div>
-              <div className="service_title">
-                {" "}
-                The 1000 most frequently used
-              </div>
-              <div className="service_title"> The 1000 most frequently </div>
+              <h1 className="service_title"> The 1000 most frequently used</h1>
+              <h1 className="service_title "> The 1000 most frequently </h1>
             </div>
           </div>
-          <div className="service_description">
+          <div className="service_description pb-5">
             <div className="service_description_para">
               <p>
                 {" "}
@@ -39,13 +34,13 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div className="service_box">
+        <div className="service_box mb-5">
           <div className="service_box_things">
             <div className="service_img">
               {/* <img src={bug} />  */}
               <MdSettingsSystemDaydream />
             </div>
-            <div className="service_box_title">Software Service</div>
+            <h5 className="service_box_title">Software Service</h5>
             <div className="service_box_description">
               <p>
                 The list below gives you the 1000 most frequently used English
@@ -60,7 +55,7 @@ const Service = () => {
               {/* <img src={man}  />  */}
               <BsFillBugFill />
             </div>
-            <div className="service_box_title">Software Service</div>
+            <h5 className="service_box_title">Software Service</h5>
             <div className="service_box_description">
               <p>
                 The list below gives you the 1000 most frequently used English

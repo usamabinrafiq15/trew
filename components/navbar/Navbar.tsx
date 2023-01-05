@@ -7,37 +7,45 @@ import Link from "next/link";
 const Menu = () => {
   return (
     <>
-      <ul>
-        <li>
+      <div className="d-flex justify-content-between align-items-center">
+        <div>
+          <ul>
+            <li>
+              {" "}
+              <Link href="/documentation" className="link_routes">
+                DOCUMENTATIONS
+              </Link>
+            </li>
+            <li>
+              <Link href="/plugin" className="link_routes">
+                PLUGIN
+              </Link>
+            </li>
+            <li>
+              {" "}
+              <Link href="/plugin" className="link_routes">
+                CONTACT US
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div className="ps-5">
           {" "}
-          <Link href="/documentation" className="link_routes">
-            DOCUMENTATIONS
-          </Link>
-        </li>
-        <li>
-          <Link href="/plugin" className="link_routes">
-            PLUGIN
-          </Link>
-        </li>
-        <li>
-          {" "}
-          <Link href="/plugin" className="link_routes">
-            CONTACT US
-          </Link>
-        </li>
-        <li>
-          {" "}
-          <Link href="/plugin" className="link_routes">
+          <Link
+            href="/"
+            className="link_route text-decoration-none language mx-2"
+          >
             EN
-          </Link>
-        </li>
-        <li>
-          {" "}
-          <Link href="/plugin" className="link_routes">
+          </Link>{" "}
+          <Link
+            href="/"
+            className="link_route text-decoration-none language"
+          >
             IT
           </Link>
-        </li>
-      </ul>
+        </div>
+      </div>
     </>
   );
 };
@@ -48,11 +56,13 @@ const Navbar = () => {
   return (
     <>
       <div className="nav_border">
-        <Container fluid>
+        <Container >
           <div className="navbar">
             <div className="navbar__links">
               <div className="navbar__logo">
-                <Image src={logo} className="logo_trew" width={120} alt="" />
+                <Link href="/" className="">
+                  <Image src={logo} className="logo_trew" width={120} alt="" />
+                </Link>
               </div>
               <div className="navbar__right">
                 <div className="navbar__pages">
