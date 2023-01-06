@@ -59,7 +59,7 @@ const plugin = () => {
             </div>
             <div className="left_area col-xl-7  col-lg-12">
               <div className="area_img_box row  ">
-                <div className="area_img_big col-xl-12 pt-md-5">
+                <div className="area_img_big col-xl-12 pt-md-5 pt-lg-0">
                   <iframe
                     width="100%"
                     height="410px"
@@ -153,7 +153,7 @@ const Highlight = () => {
               Klaviyo: Marketing
             </p>
           </div>
-          <div className="highlights_left ps-lg-5 col-xl-8 col-lg-12 mt-md-5">
+          <div className="highlights_left ps-lg-5 col-xl-8 col-lg-12 mt-md-5 mt-lg-0">
             <h4 className="highlights_left_title">
               Collect and display product reviews and star ratings. Build trust
               and boost sales with social proof.
@@ -263,7 +263,7 @@ const PricingPlugIn = () => {
               <p className="free_description">SEO snippets</p>
               <p className="free_description">Manual social push</p>
             </div>
-            <div className="pricingplugin_left col-xl-5 col-lg-12 mt-md-5">
+            <div className="pricingplugin_left col-xl-5 col-lg-12 mt-md-5 mt-lg-0">
               <h6 className="free">AWESOME</h6>
               <h2 className="free_title"> &#36; 15/month</h2>
               <p className="free_description mt-4">Site reviews</p>
