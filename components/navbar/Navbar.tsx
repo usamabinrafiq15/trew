@@ -7,7 +7,7 @@ import Link from "next/link";
 const Menu = () => {
   return (
     <>
-      <div className="d-flex justify-content-between align-items-center">
+      <div className="desk_menu">
         <div>
           <ul>
             <li>
@@ -23,14 +23,14 @@ const Menu = () => {
             </li>
             <li>
               {" "}
-              <Link href="/plugin" className="link_routes">
+              <Link href="/contact" className="link_routes">
                 CONTACT US
               </Link>
             </li>
           </ul>
         </div>
 
-        <div className="ps-5">
+        <div className=" mobile_lang">
           {" "}
           <Link
             href="/"
@@ -72,11 +72,13 @@ const Navbar = () => {
                   {toggleMenu ? (
                     <RiCloseLine
                       color="#fff"
+                      className="toggle"
                       onClick={() => setToggleMenu(false)}
                     />
                   ) : (
                     <RiMenu3Line
                       color="#fff"
+                      className="toggle"
                       onClick={() => setToggleMenu(true)}
                     />
                   )}

@@ -35,7 +35,7 @@ const documentation = () => {
                   type="text"
                   name="doc_searchQueryInput"
                   placeholder="Search documentations"
-                  value=""
+                  // value=""
                 />
                 <button
                   id="doc_searchQuerySubmit"
